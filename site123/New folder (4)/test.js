@@ -91,6 +91,10 @@ $(document).ready(function(){
             $('#show').append('<div>Esti fumator foarte dependent de nicotina, oprestete instant!</div>')
             
         }
+        if (ans1>5) {
+            $('#show').append('<div>Eroare! Ai apasat de prea multe ori pe da, incearca testul din nou</div>')
+            
+        }
         
 
     })

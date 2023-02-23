@@ -120,3 +120,7 @@ body {
 .colorat{
   color: rgb(88, 127, 195);
 }
+
+.textulcolorat {
+  color:rgb(8, 5, 53) !important
+}

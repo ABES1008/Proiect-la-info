@@ -33,3 +33,52 @@
   background-color: #666;
   color: white;
 }
+
+.textulcolorat {
+  color:rgb(8, 5, 53) !important
+}
+
+.overlaylarge {
+  position:fixed;
+  display:none;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:rgba(0,0,0,0.5);z-index:2;
+  display: none !important
+}
+
+.themain {
+  transition:margin-left .4s
+}
+
+.therow {
+  padding:6 4px
+}
+
+.thetwothird {
+  float:left;width:66%;
+  margin-top:16px;
+  margin-bottom:16px
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+.thethird {
+  float:left;width:33%;
+  margin-top:16px;
+  margin-bottom:16px
+}
+
+.theone {
+  float:left;width:100%;
+  margin-top:16px;
+  margin-bottom:16px
+}
