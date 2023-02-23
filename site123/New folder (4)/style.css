@@ -81,7 +81,6 @@ body {
   padding: 20px;
 }
 
-/* Main column */
 .main {   
   -ms-flex: 70%; /* IE10 */
   flex: 70%;
@@ -92,7 +91,7 @@ body {
 /* Fake image, just for this example */
 .fakeimg {
   background-color: #aaa;
-  width: 100%;
+  width: 50%;
   padding: 20px;
 }
 
@@ -116,4 +115,8 @@ body {
     float: none;
     width: 100%;
   }
+}
+
+.colorat{
+  color: rgb(88, 127, 195);
 }
